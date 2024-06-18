@@ -4,12 +4,12 @@ variable "subnet_id" {
 
 variable "privatesubnets" {
   type = "string"
-  default = "" # < valor que vai ser preenchido quando esta variavel for chamada.
+  default = "teste123" # < valor que vai ser preenchido quando esta variavel for chamada.
 }
 
 variable "Enviroment" {
   type = "string"
-  default = "" # < valor que vai ser preenchido quando esta variavel for chamada.
+  default = "teste" # < valor que vai ser preenchido quando esta variavel for chamada.
 }
 
 variable "tag1" {
