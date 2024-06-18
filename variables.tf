@@ -1,9 +1,8 @@
 
 variable "privatesubnets" {
-  type = string
-  default = "teste123" # < valor que vai ser preenchido quando esta variavel for chamada.
+  type    = set(string)
+  default = ["subnet-12345678", "subnet-87654321"]
 }
-
 variable "Enviroment" {
   type = string
   default = "teste" # < valor que vai ser preenchido quando esta variavel for chamada.
