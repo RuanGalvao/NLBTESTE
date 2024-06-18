@@ -1,6 +1,3 @@
-variable "subnet_id" {
-  
-}
 
 variable "privatesubnets" {
   type = string
